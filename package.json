@@ -2,16 +2,14 @@
   "name": "socket.io-chat",
   "version": "0.0.0",
   "description": "A simple chat client using socket.io",
-  "main": "index.js",
-  "author": "Grant Timmerman",
-  "private": true,
-  "license": "BSD",
+  "main": "public/index.js",
+  "author": "Hector",
   "dependencies": {
     "express": "4.13.4",
     "socket.io": "^2.0.4"
   },
   "scripts": {
-    "start": "nodemon public/index.js"
+    "start": "nodemon index.js"
   },
   "devDependencies": {
     "nodemon": "^1.17.1"
